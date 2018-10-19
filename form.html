@@ -5,20 +5,47 @@
     <head>
 		<!-- Header Content -->
 		<title>Sign Up</title>
-		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="stylesheet" type="text/css" href="file:///C:/Users/armst/Documents/Website/knightsurfer.github.io/assets/scripts/style.css"/>
 		
 		
 		
 		
 		
 		<style type="text/css">
-		body {text-align:left; background-color:#CCFFCC;}
+		body {text-align:left;}
 		</style>
     </head>
     <body>	
+	
+	
+		<!-- JavaScript -->
+		<script type="text/javascript">
+				function sellsoul(name,password,gender,country)
+				{
+				
+					return("Your name is " + name);
+				}
+				
+				function signup(name,password,gender,country)
+				{
+				
+					alert("Your name is " + name + "\n" + "Your password is " + password + "\n" + "You are " + gender + "\n" + "you live in " + country);
+					
+	
+					
+				}
+				
+				
+		</script>
+	
+	
+	
+	
 		<!-- Body Content -->
 		<h1>Sign Up</h1><hr>
-		<form action="index.html" method="post">
+		<form action="file:///C:/Users/armst/Documents/Website/knightsurfer.github.io/index.html" method="post">
+		
+		
 			<strong>Username:</strong> <input type="text" name="username"/><br>
 			<strong>Password:</strong> <input type="password" name="password"/><br><br>
 			
@@ -45,9 +72,16 @@
 			<input type="file" name="file"/><br><br>
 			
 			<input type="submit" value="Sign Up" name="submit"></input>
-					
+			<input type="button" value="Sign Up 2" onclick="signup(username.value,password.value,gender.value,country.value)">
+				
+			<input type="button" value="Sell Your Soul!" onclick="sellsoul(username.value)">
+			
+				
 			
 		</form><br>
+
+		
+		
 		
 	</body>
 
