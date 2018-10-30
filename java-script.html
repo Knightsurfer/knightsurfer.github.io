@@ -10,11 +10,17 @@
 
 		<!-- Java Variables -->
 		<script type="text/javascript">
+		
+		var buttonClicked = false;
 		function buttonClick()
 		{
-			var x = document.getElementById("javatest");
-			x.innerHTML += "<br>The button worked!!";
-			//x.innerHTML += "<br><br>" + Date();
+			if(buttonClicked == false)
+			{
+				var x = document.getElementById("javatest");
+				x.innerHTML += "<br>The button worked!!";
+				buttonClicked = true;
+				//x.innerHTML += "<br><br>" + Date();
+			}
 		}
 		
 		
