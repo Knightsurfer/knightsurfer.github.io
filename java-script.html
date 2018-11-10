@@ -5,28 +5,19 @@
     <head>
 		<!-- Header Content -->
 		<title>Java Scripting</title>
+		
+		<!-- Stylesheets -->
 		<link rel="stylesheet" type="text/css" href="assets/scripts/style-java.css"/>
-		
+		<link rel="stylesheet" type="text/css" href="assets/scripts/css-lessons.css"/>
 
-		<!-- Java Variables -->
-		<script type="text/javascript">
-		
-		var buttonClicked = false;
-		function buttonClick()
-		{
-			if(buttonClicked == false)
-			{
-				var x = document.getElementById("javatest");
-				x.innerHTML += "<br>The button worked!!";
-				buttonClicked = true;
-				//x.innerHTML += "<br><br>" + Date();
-			}
-		}
+		<!-- Java Scripts -->		
+		<script type ="text/javascript" src="assets/scripts/javastuff.js"></script>
+		<script type ="text/javascript" src="assets/scripts/jquery.js"></script>
 		
 		
 		
 		
-		</script>
+		
 		
 		
 		
@@ -37,37 +28,40 @@
 	
     <body>
 		
-		<!-- Body Content -->
-	
+		<!-- Body Content -->	
 		<div id="topmenu">
 			<div id="toplinks"><a href="https://scarfs-adventure.enjin.com/" target="_blank">Scarf's Adventure</a></div>
 			<div id="toplinks"><a href="https://scarfs-adventure.enjin.com/page/1647655" target="_blank">Site Info</a></div>
 			<div id="toplinks"><a href="https://scarfs-adventure.enjin.com/admin" target="_blank">Admin</a></div>	
 			<div id="toplinks"><a href="https://scarfs-adventure.enjin.com/admin/plans" target="_blank">Upgrade Site</a></div>	
 		</div>
-	
-		
-		<div id="placeholder"></div>
+		<div id="placeholder">
 		<br>
 		<br>
+		</div>
 		
-		
-		
-		<!-- Java Scripting -->
+		<!-- Java Scripting
 		
 		<div id="bodytext"><br><p>
 			
 			
 			<b>Java Testing</b><br><br>
-			<p id="javatest">This is where we will have java tests.<br></p>
-		
+			<p>This is where we will have java tests.<br></p>
+			<p id="javatest"></p>
 			<p><button type="button" onclick="buttonClick()">Test Button</button></P>
 		
 			</p>
-		
-		
+		<p><button type="button" onclick="buttonClick()">JQuery</button></P>
+		<p id="javatest"></p>
 			
 		</p><br><br></div>
+		-->
+		
+		<div id="bodytext"><br><p>
+		<strong>Test</strong></p><br>
+		</div>
+		<img src="https://raw.githubusercontent.com/Knightsurfer/Scarfs-Adventure/master/Assets/Sean's%20Files/Graphics/Sprites/Scarf.png">
+		
 		
 	</body>
 
