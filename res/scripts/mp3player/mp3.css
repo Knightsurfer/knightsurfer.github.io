@@ -39,6 +39,7 @@
 	border-radius: 1px;
 	text-align: center;
 	background:lightgrey;
+	user-select: none;
 }
 
 #mplayer_back:hover,#mplayer_play:hover,#mplayer_skip:hover{
