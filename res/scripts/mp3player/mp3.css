@@ -1,0 +1,47 @@
+#mplayer{
+	position:absolute;
+	top:10px;
+	right:70px;
+	margin-left:20px;
+	width:30%;
+	height:40px;
+	border: 4px black solid;
+	border-radius: 5px;
+	background:#333333;
+}
+
+#mplayer_back{
+	left:0px;
+}
+
+#mplayer_play{
+	left:40px;
+}
+
+#mplayer_skip{
+	left:80px;
+}
+
+#mplayer_track{
+	position:relative;
+	color:green;
+	left:150px;
+	top:10px;
+}
+
+
+
+#mplayer_back,#mplayer_play,#mplayer_skip{
+	position:absolute;
+	width:30px;
+	height:30px;
+	border:#E4E8EA 5px solid;
+	border-radius: 1px;
+	text-align: center;
+	background:lightgrey;
+}
+
+#mplayer_back:hover,#mplayer_play:hover,#mplayer_skip:hover{
+	background:#CECBFA;
+	cursor:pointer;	
+}
