@@ -30,13 +30,13 @@ function Play()
 	if(myMusic.paused)
 	{
 		document.getElementById("myMusic").play();
-		document.getElementById("mplayer_play").innerHTML = ">";
+		document.getElementById("mplayer_play").innerHTML = "||";
 		playing = true;
 	}
 	else
 	{
 		document.getElementById("myMusic").pause();
-		document.getElementById("mplayer_play").innerHTML = "||";
+		document.getElementById("mplayer_play").innerHTML = ">";
 		playing = false;
 	}
 }
