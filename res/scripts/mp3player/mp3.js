@@ -1,4 +1,4 @@
-var track = ["/res/music/goron.mp3","/res/music/gbhorror.mp3"];
+var track = ["https://knightsurfer.github.io/res/music/goron.mp3","https://knightsurfer.github.io/res/music/gbhorror.mp3"];
 var trackName = ["Goron Valley - Nintendo","Gameboy Horror - Nintendo"]
 
 
