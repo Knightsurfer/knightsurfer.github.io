@@ -1,5 +1,4 @@
 #mplayer{
-	left:90px;
 	width:30%;
 	height:40px;
 	border: 4px black solid;
@@ -8,7 +7,7 @@
 }
 
 #mplayer_back{
-	left:20px;
+	left:10px;
 }
 
 #mplayer_play{
