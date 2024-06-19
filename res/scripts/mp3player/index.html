@@ -1,5 +1,53 @@
 <head>
 	<link rel="stylesheet" href="/res/scripts/mp3player/mp3.css">
+	<style>
+		#mplayer{
+		width:30%;
+		height:40px;
+		border: 4px black solid;
+		border-radius: 5px;
+		background:#333333;
+		}
+		
+		#mplayer_back{
+			left:20px;
+		}
+		
+		#mplayer_play{
+			left:50px;
+		}
+		
+		#mplayer_skip{
+			left:70px;
+		}
+		
+		#mplayer_track{
+			position:relative;
+			color:green;
+			left:150px;
+			top:10px;
+		}
+		
+		
+		
+		#mplayer_back,#mplayer_play,#mplayer_skip{
+			position:absolute;
+			width:30px;
+			height:30px;
+			border:#E4E8EA 5px solid;
+			border-radius: 1px;
+			text-align: center;
+			background:lightgrey;
+			user-select: none;
+		}
+		
+		#mplayer_back:hover,#mplayer_play:hover,#mplayer_skip:hover{
+			background:#CECBFA;
+			cursor:pointer;	
+		}
+	
+	</style>
+	
 </head>
 <body> 
 	<div id='mplayer'>
